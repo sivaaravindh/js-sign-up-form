@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 95%;
+    margin:auto;
+    font-family: Helvetica, sans-serif;
+  }
+  .row{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .col{
+    width:25%;
+    padding:27px;
+  }
+  img{
+    width:100%;
+  }
+  .col-card{
+    border:3px solid #dfd6d452;;
+    box-shadow:0 0 3px #cdc1c1;;
+    border-radius:3px;
+  }
+  span i{
+    content:"fa fa-star"
+  }
+  .col-card-1{
+    display:flex;
+    padding:20px 0;
+  }
+.col-image{
+   width:20%;
+   background-color: #48c479;
+    color: #fff;
+    padding:4px 3px;
+    font-size:14px;
+}
+.time{
+  width:40%;
+  padding:4px 20px;
+  font-size:14px;
+}
+.rube{
+  padding:4px 0px;
+  width:40%;
+  font-size:14px;
+}
+.col-3{
+  justify-content: center;
+  display: flex;
+  border-top:1px solid gainsboro;
+  padding:10px 0;
+  color:rgb(70, 39, 143);
+}
+.col-3:hover{
+  border-bottom:1px solid gainsboro;
+}
+.addacrt{
+  display:flex;
+  justify-content:space-around;
+  border-top:1px solid gainsboro;
+  padding:20px 0 0;
+ 
+}
+.carLable{
+  font-size:14px;
+  padding:4px 0 0;
+  color:blue;
+  font-weight:600;
+}
+.addacrt2{
+  border:1px solid white;
+}
+input{
+  width:20px;
+  border:0;
+  text-align:center;
+}
+input:focus{
+  outline:none;
+}
+button{
+  border:none;
+  font-size:12px;
+  background-color:white;
+  padding:5px;
+  position:relative;
+  top:px;
+}
+
+.col-card:hover{
+  border:1px solid #80808063;;
+  box-shadow: 0 0 2px #f9cacaeb;
+  padding:15px;
+}
+.carlabel{
+  color:red;
+  font-size:16px;
+}
